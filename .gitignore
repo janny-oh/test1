@@ -1,0 +1,18 @@
+# 기본적으로 전부 제외
+*
+
+# .gitignore 자체 포함
+!/.gitignore
+
+# apps/*/default/*.conf 및 apps/*/local/*.conf
+!/apps/
+!/apps/*/
+!/apps/*/default/
+!/apps/*/default/*.conf
+!/apps/*/local/
+!/apps/*/local/*.conf
+
+# system/local/*.conf
+!/system/
+!/system/local/
+!/system/local/*.conf
